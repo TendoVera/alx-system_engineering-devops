@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Shws script that displays Best School 10 times.
+
+counting=0
+
+until [ $counting -eq 10 ]
+do
+  echo "Best School"
+  (( counting++ ))
+done
