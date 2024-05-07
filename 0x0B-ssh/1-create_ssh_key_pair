@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This code is to creates an RSA key pair.
+ssh-keygen -b 4096 -N brtty -f school
